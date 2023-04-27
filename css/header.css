@@ -1,0 +1,345 @@
+header{
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: 100;
+  width:100%;
+  font-size: var(--body_05);
+  font-weight: 500;
+}
+header > div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* width:100%; */
+  /* max-width:2540px; */
+  position: relative;
+  z-index: 1;
+}
+header.fixed {
+  animation: dropHeader 0.3s;
+  position: fixed;
+ }
+@keyframes dropHeader {
+  0% {
+    top: -5rem;
+  }
+  100% {
+    top: 0;
+  }
+}
+header.fixed::before{
+  content: '';
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+}
+
+
+/* logo */
+header a#logo{
+    height:45px;
+    cursor: pointer;
+}
+header a#logo img{
+  height:100%;
+  width:auto;
+}
+header .logo_ny{
+  display: none;
+}
+header.fixed .logo_ny{
+  display: block;
+}
+header.fixed .logo_wh{
+  display: none;
+}
+
+
+
+/* gnb */
+#gnb{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#gnb ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#gnb a,
+.gnb_icon{
+    padding:0 24px;
+    height:90px;
+    display: flex;
+    align-items: center;
+    transition: all ease-in-out .3s;
+    color:var(--white);
+    position: relative;
+}
+#gnb .gnb_icon{
+  padding:0 20px 0 24px;
+  cursor: pointer;
+}
+#gnb .gnb_icon span{
+  margin-left: 8px;
+}
+#gnb .gnb_icon span path{
+  fill:var(--white);
+  transition: all ease-in-out .3s;
+}
+
+#gnb a:hover,
+.gnb_icon:hover{
+  background-color: var(--white);
+  color:var(--p_100);
+}
+#gnb .gnb_icon:hover span path{
+  fill:var(--p_100);
+}
+
+header.fixed #gnb a,
+header.fixed #gnb .gnb_icon{
+  color:var(--p_100);
+}
+header.fixed #gnb .gnb_icon span path{
+  fill:var(--p_100);
+}
+header.fixed #gnb #icon_lang svg path{
+  fill:var(--p_100);
+}
+
+header.fixed #gnb a:hover,
+header.fixed #gnb .gnb_icon:hover{
+  background-color: var(--p_100);
+  color:var(--white);
+}
+header.fixed #gnb .gnb_icon:hover span path{
+  fill:var(--white);
+}
+
+
+/* gnb sub menu */
+#gnb ul.gnb_sub{
+  position:absolute;
+  top:90px;
+  flex-direction: column;
+  background-color: rgba(9, 40, 50, 0.85);
+  backdrop-filter: blur(10px);
+  transition: all ease-in-out .3s;
+}
+#gnb ul.gnb_sub li a{
+  height:48px;
+  font-size: var(--body_06);
+}
+header.fixed #gnb ul.gnb_sub{
+  background-color: rgba(255,255,255,0.85);
+}
+ul.gnb_sub i{
+  width:24px;
+  aspect-ratio: 1/ 1;
+  background-size: 100%;
+  background-position: center;
+  margin-right: 8px;
+}
+ul.gnb_sub i svg path{
+  fill:var(--white);
+}
+ul.gnb_sub a:hover i svg path{
+  fill:var(--p_100);
+}
+header.fixed ul.gnb_sub i svg path{
+  fill:var(--p_100);
+}
+header.fixed ul.gnb_sub a:hover i svg path{
+  fill:var(--white);
+}
+/* ul.gnb_sub .topPort i{
+  background-image: url(../img/logo-topProt-color.svg);
+}
+ul.gnb_sub .abc_Wallet i{
+  background-image: url(../img/logo-abc-color.svg);
+} */
+
+
+/* icon_lang */
+#gnb #icon_lang{
+  padding:0 20px;
+  /* padding-right: 0; */
+  display: flex;
+  align-items: center;
+}
+#gnb #icon_lang svg path{
+  fill:var(--white);
+  transition: all ease-in-out .3s;
+}
+
+#gnb #icon_lang:hover{
+  background-color: var(--white);
+}
+#gnb #icon_lang:hover svg path{
+  fill: var(--p_100);
+}
+
+header.fixed #gnb #icon_lang:hover{
+  background-color: var(--p_100);
+}
+header.fixed #gnb #icon_lang:hover svg path{
+  fill: var(--white);
+}
+
+
+
+
+/* gnb_wrap */
+input[id="gnb_toggler"]{
+  display: none;
+}
+input[id="gnb_toggler"] + label {
+  display: none;
+  height:100%;
+  width:32px;
+  height:32px;
+  padding:6px 2px;
+  box-sizing: border-box;
+}
+input[id="gnb_toggler"] + label > div{
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+input[id="gnb_toggler"]  + label span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background: var(--white);
+  transition: all 0.35s;
+}
+input[id="gnb_toggler"] + label span:nth-child(1) {
+  top: 0;
+}
+input[id="gnb_toggler"]  + label span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+input[id="gnb_toggler"]  + label span:nth-child(3) {
+  bottom: 0;
+}
+
+header.fixed input[id="gnb_toggler"]  + label span {
+  background: var(--black);
+}
+
+
+
+
+input[id="gnb_toggler"]:checked  + label span {
+  background: var(--black);
+}
+input[id="gnb_toggler"]:checked + label span:nth-child(1) {
+  top: 50% !important;
+  transform: translateY(-50%) rotate(45deg);
+}
+input[id="gnb_toggler"]:checked + label span:nth-child(2) {
+  opacity: 0;
+}
+input[id="gnb_toggler"]:checked + label span:nth-child(3) {
+  bottom: 50% !important;
+  transform: translateY(50%) rotate(-45deg);
+}
+input[id="gnb_toggler"]:checked + label + #gnb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  z-index: 2;
+}
+input[id="gnb_toggler"]:checked + label + #gnb > ul{
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+}
+
+input[id="gnb_toggler"]:checked + label + #gnb ul li{
+  width: 100%;
+}
+input[id="gnb_toggler"]:checked + label + #gnb ul li a,
+input[id="gnb_toggler"]:checked + label + #gnb ul li .gnb_icon{
+  justify-content: flex-start;
+  padding:16px 16px 16px 32px;
+  color:var(--p_100);
+}
+
+
+input[id="gnb_toggler"]:checked + label + #gnb .gnb_icon:hover{
+  background-color: rgba(255,255,255,0) !important;
+}
+input[id="gnb_toggler"]:checked + label + #gnb .gnb_icon span path{
+  fill: var(--p_100);
+}
+input[id="gnb_toggler"]:checked + label + #gnb ul ul{
+  position: inherit;
+  background-color: rgba(9, 40, 50, 0.85);
+}
+input[id="gnb_toggler"]:checked + label + #gnb ul ul a{
+  color:var(--white);
+}
+
+
+
+
+/* mobile */
+@media screen and (max-width: 1023px) {
+
+  header > div{
+    padding-top:16px;
+    padding-bottom: 16px;
+  }
+  header a#logo{
+    height:32px;
+    cursor: pointer;
+  }
+
+  input[id="gnb_toggler"] + label{
+    display: block;
+  }
+  #gnb{
+    display: none;
+  }
+  #gnb ul.gnb_sub li a{
+    padding-left: 42px !important;
+  }
+  ul.gnb_sub i svg path{
+    fill:var(--white);
+  }
+  ul.gnb_sub a:hover i svg path{
+    fill:var(--p_100);
+  }
+  header.fixed ul.gnb_sub i svg path{
+    fill:var(--white);
+  }
+  header.fixed ul.gnb_sub a:hover i svg path{
+    fill:var(--p_100);
+  }
+
+
+}

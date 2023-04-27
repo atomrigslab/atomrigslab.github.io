@@ -1,0 +1,11 @@
+#list_box li h5{
+    max-height: 2.8em;
+    overflow: hidden;
+ }
+#list_box li p{
+    max-height: 4.2em;
+    overflow: hidden;
+}
+
+.sec2_list_img{background-image: url(../img/icon/icon_clay_news_1.png);}
+li:hover .sec2_list_img{background-image: url(../img/icon/icon_clay_news_2.png);}

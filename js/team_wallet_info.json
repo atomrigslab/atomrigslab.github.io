@@ -1,0 +1,86 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "장세희",
+        "eName": "Sebby Chang",
+        "team_position": "Wallet/Dapp Development Lead",
+        "email": "sehee@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sehee-chang-sebby/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "sebby"
+    },
+    {
+        "id": "2",
+        "kName": "임창수",
+        "eName": "Walter Lim",
+        "team_position": "Wallet Developer",
+        "email": "lcs86@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/lcs86/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "walter"
+    },
+    {
+        "id": "3",
+        "kName": "박태광",
+        "eName": "Kei Park",
+        "team_position": "Server Management",
+        "email": "tkpark@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/parktaekwang/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "kei"
+    },
+    {
+        "id": "4",
+        "kName": "",
+        "eName": "Ashwin Menkudle",
+        "team_position": "Fullstack Developer",
+        "email": "ashwinmenkudle@gmail.com",
+        "linkedin": "",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "ashwin"
+    },
+    {
+        "id": "5",
+        "kName": "이 솔",
+        "eName": "Saul Lee",
+        "team_position": "Wallet Developer",
+        "email": "saul@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sol-lee-31354623a/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "saul"
+    },
+    {
+        "id": "6",
+        "kName": "서성용",
+        "eName": "Yong Seo",
+        "team_position": "Dapp Developer",
+        "email": "yong@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sungyong-seo-38a936259/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "yong"
+    },
+    {
+        "id": "7",
+        "kName": "강태승",
+        "eName": "TS Kang",
+        "team_position": "Wallet Developer",
+        "email": "ts.kang@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/ts-kang-77b83320/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "ts"
+    }
+]

@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="./css/list_box.css">
+
+<ul class="list_box swiper-wrapper margin_24">
+    <li class="swiper-slide">
+        <a>
+            <div class="sec2_list_img sec2_list_img_1"></div>
+            <h5>No single point of failure</h5>
+            <p>개인키가 단일 지점에 존재하지 않으므로 해킹으로부터 안전하고 암호화된 프로토콜을 통해 개인키 복원 없이 디지털 서명을 생성</p>
+        </a>
+    </li>
+    
+    <li class="swiper-slide">
+        <a>
+            <div class="sec2_list_img sec2_list_img_2"></div>
+            <h5>Full-fledged Web3 Wallet</h5>
+            <p>Uniswap, Opensea 등 다양한 Dapp 서비스와 완벽하게 호환되는 Web3 지갑</p>
+        </a>
+        
+    </li>
+    
+    <li class="swiper-slide">
+        <a>
+            <div class="sec2_list_img sec2_list_img_3"></div>
+            <h5>No mnemonic backup</h5>
+            <p>사용자가 mnemonic을 관리할 필요가 없이 간편한 신원 인증을 통해 계정 복구</p>
+        </a>
+        
+    </li>
+    
+    <li class="swiper-slide">
+        <a>
+            <div class="sec2_list_img sec2_list_img_4"></div>
+            <h5>Self custodial wallet</h5>
+            <p>사용자는 자신의 자산에 대한 완전한 통제권을 행사</p>
+        </a>
+        
+    </li>
+    
+    <li class="swiper-slide">
+        <a>
+            <div class="sec2_list_img sec2_list_img_5"></div>
+            <h5>Multi devices with ONE address</h5>
+            <p>MPC 기술을 통해 하나의 주소로 안전하게 다중 기기 이용이 가능</p>
+        </a>
+        
+    </li>
+    
+    <li class="swiper-slide">
+        <a>
+            <div class="sec2_list_img sec2_list_img_6"></div>
+            <h5>Multi platforms supported</h5>
+            <p>Browser Extension, Mobile (iOS/Android), In-browser Wallet</p>
+        </a>
+        
+    </li>
+</ul>
+
+<div class="swiper-pagination"></div>
+
+
+<script>
+    $( document ).ready( function() {
+   
+        var ww = $(window).width();
+        var mySwiper = undefined;
+        console.log(ww);
+
+        function initSwiper() {
+
+        if (ww < 1024 && mySwiper == undefined) {
+            mySwiper = new Swiper("#list_box_wallet", {
+            slidesPerView: 'auto',
+            spaceBetween: 0,
+            centeredSlides : true,
+            // simulateTouch: true,
+            // loop: true,
+
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            },
+
+
+            });
+        } else if (ww >= 1024 && mySwiper != undefined) {
+            mySwiper.destroy();
+            mySwiper = undefined;
+        }
+        }
+
+        initSwiper();
+
+        $(window).on('resize', function () {
+        ww = $(window).width();
+        initSwiper();
+        });
+   
+    });
+</script>

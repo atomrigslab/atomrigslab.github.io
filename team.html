@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomrigs Lab</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon.ico" />
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="./js/header.js"></script> -->
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/team.css">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+          $("#header").load("./page/header.html");
+          $("#footer").load("./page/footer.html");
+        });
+      </script>
+    
+</head>
+<body>
+    <header id="header" class="fixed"></header>
+
+    <div class="subPage">
+      <section class="section1">
+            <div class="container">
+                <div class="team global_width global_padding center margin_t_140 margin_b_140">
+                    <div class="team_group leader_group">
+                        <h3 class="text_center margin_b_100">Leader Group</h3>
+
+                        <ul>
+                            <li>
+                                <div class="team_img"><img src="./img/team/brian.png" alt=""></div>
+                                <div class="team_name"><h6 class="eName">Brian Cheong</h6><span>&nbsp|&nbsp</span></span><h6 class="kName">정우현</h6></div>
+                                <p class="team_position">CEO / Co-Founder</p>
+                                <ul class="team_sns">
+                                    <ol class="linkedin"><a href="https://www.linkedin.com/in/woohyeon-cheong/" target="_blank"></a></ol>
+                                    <ol class="email"><a href="mailto:a@atomrigs.io" target="_blank"></a></ol>
+                                    <ol class="facebook"><a href="https://www.facebook.com/atomrigs/" target="_blank"></a></ol>
+                                    <ol class="twitter"><a href="https://twitter.com/Atomrigs" target="_blank"></a></ol>
+                                </ul>
+                                <div class="team_caption">
+                                    <p>Seoul Ethereum Meetup Founder and Organizer, the largest blockchain community in Korea.</p>
+                                    <p>Specialized in Ethereum and dApp technology development.Established and successfully operated a number of venture companies in the e-commerce area (Acecom, ResellerBid, Geogan).</p>
+                                    <p>Seoul National University, Department of Journalism and Information Science.(B.A. and M.A.)</p>
+                                </div>
+                            </li>
+    
+                            <li id="team_luke">
+                                <div class="team_img"><img src="./img/team/luke.png" alt=""></div>
+                                <div class="team_name"><h6 class="eName">Kyoungil Bae</h6><span>&nbsp|&nbsp</span></span><h6 class="kName">배경일 | Ph.D</h6></div>
+                                <p class="team_position">EVP / Co-Founder</p>
+                                <ul class="team_sns">
+                                    <ol class="linkedin"><a href="" target="_blank"></a></ol>
+                                    <ol class="email"><a href="mailto:K@atomrigs.io" target="_blank"></a></ol>
+                                    <ol class="facebook"><a href="https://www.facebook.com/crazybae/" target="_blank"></a></ol>
+                                    <ol class="twitter"><a href="" target="_blank"></a></ol>
+                                </ul>
+                                <div class="team_caption">
+                                    <p>25 years of experience in financial engineering and technology consulting.</p>
+                                    <p>Seoul Ethereum Meetup Co-organizer.</p>
+                                    <p>Specialized in practical application of advanced mathematical theory. (Financial Engineering, Asset Valuation, Secure MPC)</p>
+                                    <p>IBM, multiple financial institutions experience.</p>
+                                    <p>KAIST Management Engineering. (M.S. and Ph.D)</p>
+                                    <p>KAIST Mathematics. (B.S.)</p>
+                                </div>
+                            </li>
+    
+                            <li id="team_sangmin">
+                                <div class="team_img"><img src="./img/team/sangmin.png" alt=""></div>
+                                <div class="team_name"><h6 class="eName">Sangmin Kim</h6><span>&nbsp|&nbsp</span></span><h6 class="kName">김상민</h6></div>
+                                <p class="team_position">CTO</p>
+                                <ul class="team_sns">
+                                    <ol class="linkedin"><a href="" target="_blank"></a></ol>
+                                    <ol class="email"><a href="mailto:sangmin@atomrigs.io" target="_blank"></a></ol>
+                                    <ol class="facebook"><a href="" target="_blank"></a></ol>
+                                    <ol class="twitter"><a href="" target="_blank"></a></ol>
+                                </ul>
+                                <div class="team_caption">
+                                    <p>Blockchain research and development.</p>
+                                    <p>AI/Machine Learning Research and Development.</p>
+                                    <p>IoT and social network research.</p>
+                                    <p>Urban and real estate development business experience.</p>
+                                    <p>Seoul National University Urban Engineering. (B.A)</p>
+                                    <p>University of North Carolina Urban Planning. (M.S.)</p>
+                                    <p>Computer Science at North Carolina State University. (M.S and Ph.D)</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="team_group wallet_dapp_group margin_t_200">
+                        <h3 class="text_center margin_b_100">BlockChain Wallet & Dapp</h3>
+
+                        <ul id="team_wallet"></ul>
+                    </div>
+
+
+                    <div class="team_group business_marketing_group margin_t_200">
+                        <h3 class="text_center margin_b_100">Business & Marketing</h3>
+
+                        <ul id="team_business"></ul>
+                    </div>
+
+
+                    <div class="team_group design_group margin_t_200">
+                        <h3 class="text_center margin_b_100">UX/UI Design</h3>
+
+                        <ul id="team_design"></ul>
+                    </div>
+
+
+                    <div class="team_group game_group margin_t_200">
+                        <h3 class="text_center margin_b_100">BlockChain Game</h3>
+
+                        <ul id="team_game"></ul>
+                    </div>
+                    
+            
+                </div>
+            </div>
+      </section>
+    </div>
+
+
+
+    <footer id="footer"></footer>
+
+    <script type="text/javascript" src="./js/team_wallet.js"></script>
+    <script type="text/javascript" src="./js/team_business.js"></script>
+    <script type="text/javascript" src="./js/team_design.js"></script>
+    <script type="text/javascript" src="./js/team_game.js"></script>
+
+</body>
+</html>

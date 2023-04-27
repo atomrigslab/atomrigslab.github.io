@@ -1,0 +1,63 @@
+<div class="global_width global_padding center">
+    <a onclick="location.href='./index.html'" id="logo">
+        <img src="./img/AtomrigsLab_logo_v5_navy.png" alt="" class="logo_ny">
+        <img src="./img/AtomrigsLab_logo_v5_white.png" alt="" class="logo_wh">
+    </a>
+
+    <div id="gnb_wrap">
+        <input type="checkbox" id="gnb_toggler">
+        <label for="gnb_toggler">
+           <div>
+                <span></span>
+                <span></span>
+                <span></span>
+           </div>
+        </label>
+
+        <nav id="gnb">
+            <ul>
+                <li>
+                    <a onclick="dp_menu()"  class="gnb_icon">PROJECT<span class="gnb_arrow"></span></a>
+                    <ul class="gnb_sub" id="drop-content" style="display: none;">
+                        <li><a href="https://www.dekey.app/" target="_blank"><i class="icon_dekey"></i>Dekey</a></li>
+                        <li><a href="https://fortress-arena.io/" target="_blank"><i class="icon_fortress"></i>Fortress Arena</a></li>
+                        <li><a href="https://kansong.io/" target="_blank"><i class="icon_kansong"></i>Kansong Metaverse Museum</a></li>
+                        <li><a href="https://www.topport.io/" target="_blank"><i class="icon_topport"></i>TopPort</a></li>
+                        <li><a href="https://myabcwallet.io/ko/" target="_blank"><i class="icon_abc"></i>ABC Wallet</a></li>
+                    </ul>
+                </li>
+                <li><a href="./media.html">MEDIA</a></li>
+                <li><a href="./team.html">TEAM</a></li>
+                <!-- <li><a href="./contact.html">CONTACT</a></li> -->
+            </ul>
+            <!-- <button id="icon_lang"></button> -->
+        </nav>
+    </div>
+    
+    
+</div>
+ 
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#icon_lang").load("./img/icon/icon-lang.svg");
+        $(".gnb_arrow").load("./img/icon/icon-arrow-down.svg");
+        $(".icon_dekey").load("./img/logo-dekey.svg");
+        $(".icon_fortress").load("./img/logo-fortress.svg");
+        $(".icon_kansong").load("./img/logo-kansong1.svg");
+        $(".icon_topport").load("./img/logo-topProt.svg");
+        $(".icon_abc").load("./img/logo-abc-wh.svg");
+     });
+
+
+     function dp_menu(){
+        let click = document.getElementById("drop-content");
+        if(click.style.display === "none"){
+            click.style.display = "block";
+
+        }else{
+            click.style.display = "none";
+
+        }
+    }
+</script>

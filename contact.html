@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomrigs Lab</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon.ico" />
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="./js/header.js"></script> -->
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+          $("#header").load("./page/header.html");
+          $("#footer").load("./page/footer.html");
+        });
+      </script>
+    
+</head>
+<body>
+    <header id="header" class="fixed"></header>
+
+    <div class="subPage">
+      <section class="section1">
+          <div class="container">
+            <div class="contact global_width global_padding center margin_t_140 margin_b_140">
+              <div class="contact_info">
+                <h3 class="text_center">Contact Info</h3>
+                <div class="contact_info_contents">
+                  <div>
+                    <h6><img src="./img/icon/icon-clay-email.png" alt="">E-mail</h6>
+                    <p>info@atomrigs.io</p>
+                  </div>
+
+                  <div>
+                    <h6><img src="./img/icon/icon-clay-facebook.png" alt="">Facebook</h6>
+                    <p>Atomrigs Lab</p>
+                  </div>
+
+                  <div class="contact_info_contents_map">
+                    <h6><img src="./img/icon/icon-clay-map.png" alt="">Location</h6>
+                    <p>서울 강남구 삼성로 571(삼성동, 케이빌딩) 5층<br>
+                      5F, 571, Samseong-ro, Gangnam-gu, Seoul, Republic of Korea
+                    </p>
+                    <div id="map">
+                      <div id="daumRoughmapContainer1681810154602" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                      <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                      <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                          "timestamp" : "1681810154602",
+                          "key" : "2ehcp",
+                          "mapWidth" : "400",
+                          "mapHeight" : "300"
+                        }).render();
+                      </script>
+
+                      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d855.8631448927558!2d127.05276384419562!3d37.512927815259374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca46d216b582d%3A0x50ea0a4e822dfeef!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDsgrzshLHroZwgNTcx!5e0!3m2!1sko!2skr!4v1681809596324!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact_us">
+                <div class="text_area">
+                  <h3 class="text_center">Contact Us</h3>
+                   <p class="text_center text_caption">If you need to contact us, please use the following form.</p>
+                </div>
+                
+
+                <form action="'" id="contact_us_form">
+                  <div>
+                    <h6 for="user_name">Name<span>*</span></h6>
+                    <input type="text" placeholder="John Smith" name="user_name" id="user_name" required>
+                  </div>
+
+                  <div>
+                    <h6 for="user_email">E-mail<span>*</span></h6>
+                    <input type="email" placeholder="john@company.com" name="user_email" id="user_email" required>
+                  </div>
+
+                  <div>
+                    <h6 for="contact_subject">Subject<span>*</span></h6>
+                    <input type="text" placeholder="How can we help you?" name="contact_subject" id="contact_subject" required>
+                  </div>
+
+                  <div>
+                    <h6 for="contact_contents">How can we help you?<span>*</span></h6>
+                    <textarea rows="5" placeholder="I need help with the next problem..." name="contact_contents" id="contact_contents" required></textarea>  
+                  </div>
+
+                  <button type="submit" name="button">Send message</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+      </section>
+    </div>
+
+
+
+    <footer id="footer"></footer>
+
+</body>
+</html>

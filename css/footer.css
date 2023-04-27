@@ -1,0 +1,54 @@
+#footer{
+    float: left;
+    width:100%;
+    background-color: var(--white);
+  }
+  #footer > div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width:1440px;
+    padding-top:100px;
+    padding-bottom: 100px;
+  }
+
+  #footer img.logo_ny{
+    width:auto;
+    height:65px;
+  }
+  #footer ul#sns_btn li{
+    float: left;
+    padding:0 6px;
+  }
+  #footer svg{
+    width: 52px;
+    height: 52px;
+    transition: all ease-in-out .3s;
+    padding:10px;
+    background-color: var(--gray_30);
+    border-radius: 4px;
+  }
+  #footer svg path{
+    fill:var(--white);
+  }
+  #footer svg:hover{
+    background-color: var(--p_100);
+  }
+
+  #footer .copyright{
+    color:var(--gray_60);
+    text-align: center;
+    font-size: var(--body_07);
+  }
+  
+
+
+/* mobile */
+@media screen and (max-width: 1023px) {
+  #footer img.logo_ny{
+    height:45px;
+  }
+}

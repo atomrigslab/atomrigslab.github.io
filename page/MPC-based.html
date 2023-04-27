@@ -1,0 +1,58 @@
+<ul class="swiper-wrapper">
+    <li class="swiper-slide">
+        <div class="img_area"><img src="./img/index/sec4_img_1.png" alt=""></div>
+        <div class="text_area">
+            <h4>Key Share Generation</h4>
+            <p>Generate (2,3) secret shares for a private key
+                while no one knows the actual private key</p>
+        </div>
+    </li>
+
+    <li class="swiper-slide">
+        <div class="img_area"><img src="./img/index/sec4_img_2.png" alt=""></div>
+            <div class="text_area">
+                <h4>Sign Generation</h4>
+                <p>Generate transaction signs by cryptographic protocols without restoring
+                    the private key</p>
+            </div>
+    </li>
+
+    <li class="swiper-slide">
+        <div class="img_area"><img src="./img/index/sec4_img_3.png" alt=""></div>
+        <div class="text_area">
+            <div>
+                <h4>Key Share Recovery </h4>
+                <span>New shares for the same address</span>
+            </div>
+            <p>Recover new (2,3) secret shares for the same
+                private key without restoring the private key</p>
+        </div>
+    </li>
+</ul>
+
+<div class="swiper-pagination"></div>
+
+
+<script>
+ $( document ).ready( function() {
+
+    const swiper = new Swiper('#MPC_based', {
+        slidesPerView : 'auto',
+        spaceBetween : 0,
+        centeredSlides : true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        breakpoints: {
+            //1201 이상일 경우
+            1201: {
+                spaceBetween: 48
+            },
+        },
+    });
+
+ });
+</script>

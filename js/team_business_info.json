@@ -1,0 +1,74 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "강하민",
+        "eName": "Hamin Kang",
+        "team_position": "Stategic Partnership Management Lead",
+        "email": "hamin@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/hamink/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "hamin"
+    },
+    {
+        "id": "2",
+        "kName": "민세준",
+        "eName": "Jeff Min",
+        "team_position": "Product Manager",
+        "email": "jeff@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jeff-min-0b62a4237/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "jeff"
+    },
+    {
+        "id": "3",
+        "kName": "김종현",
+        "eName": "Jonas Kim",
+        "team_position": "Business Development Lead",
+        "email": "jonas@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jonghyeon-kim-532881165/",
+        "facebook": "facebook.com/jonghyeon.kim.524381",
+        "twitter": "https://twitter.com/Jonas_H3053",
+        "telegram": "https://t.me/Ledenker",
+        "url": "jonas"
+    },
+    {
+        "id": "4",
+        "kName": "정수진",
+        "eName": "Siena Jung",
+        "team_position": "Service Designer",
+        "email": "siena@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sujin-jung-1bb9aa152/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "siena"
+    },
+    {
+        "id": "5",
+        "kName": "이아라",
+        "eName": "Ara Lee",
+        "team_position": "Business Administrator",
+        "email": "ara@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/Leeara/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "ara"
+    },
+    {
+        "id": "6",
+        "kName": "홍신범",
+        "eName": "Joshua Hong",
+        "team_position": "Business Developer",
+        "email": "joshua@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/joshuahong89/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "joshua"
+    }
+]

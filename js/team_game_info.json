@@ -1,0 +1,98 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "김충연",
+        "eName": "Ryan Kim",
+        "team_position": "PD / Lead Designer",
+        "email": "ryan@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/%EC%B6%A9%EC%97%B0-%EA%B9%80-aa4b25227/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "ryan"
+    },
+    {
+        "id": "2",
+        "kName": "곽철중",
+        "eName": "Kwak",
+        "team_position": "Lead Programer",
+        "email": "joon@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/%EC%B2%A0%EC%A4%91-%EA%B3%BD-9253736b/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "kwak"
+    },
+    {
+        "id": "3",
+        "kName": "박진석",
+        "eName": "blackskin Park",
+        "team_position": "Lead Artist",
+        "email": "blackskin@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jinseok-park-843a8a227/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "blackskin"
+    },
+    {
+        "id": "4",
+        "kName": "김경수",
+        "eName": "finger Kim",
+        "team_position": "Concept Artist",
+        "email": "finger@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/kimkyungsu-45839125b/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "finger"
+    },
+    {
+        "id": "5",
+        "kName": "이시영",
+        "eName": "Young Lee",
+        "team_position": "UX Designer",
+        "email": "young@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/shi-yeong-lee-18839025b/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "young"
+    },
+    {
+        "id": "6",
+        "kName": "이재연",
+        "eName": "jaeni Lee",
+        "team_position": "System Designer",
+        "email": "Jaeni@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jaeyeon-jaeni-lee-atomrigs-346440227/ ",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "jaeni"
+    },
+    {
+        "id": "7",
+        "kName": "임재준",
+        "eName": "Jay Lim",
+        "team_position": "Level Designer",
+        "email": "skrh0313@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jaejun-lim-796a88227/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "jay"
+    },
+    {
+        "id": "8",
+        "kName": "이상준",
+        "eName": "Sangjun Lee",
+        "team_position": "Game Developer",
+        "email": "BrandonLee@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/%EC%83%81%EC%A4%80-%EC%9D%B4-643a6b264/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "sangjun"
+    }
+]

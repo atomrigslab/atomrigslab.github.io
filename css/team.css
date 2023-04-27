@@ -1,0 +1,121 @@
+
+.team_group > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* column-gap: 48px; */
+    /* row-gap: 100px; */
+    width:100%;
+    float: left;
+    margin-bottom: 100px;
+}
+.team_group li{
+    width:25%;
+    float: left;
+    padding:0 24px;
+    margin-bottom: 100px;
+}
+.leader_group li{
+    width:33.3%;
+}
+
+.team_name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.team_img{
+    border-radius: 8px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+.team_name{
+    margin-bottom: 4px;
+    margin-left:4px;
+}
+.team_position{
+    margin-bottom: 18px;
+    margin-left:4px;
+    font-size: var(--body_05);
+    color:var(--gray_60);
+}
+.team_group ul.team_sns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 4px;
+}
+.team_sns ol a{
+    background-color: none;
+    border-radius: 50%;
+    font-size: 0;
+    padding:4px;
+    transition: all 0.35s;
+}
+.team_sns svg{
+    width:24px;
+    height:24px;
+}
+.team_sns svg path{
+    fill:var(--gray_50);
+}
+.team_sns ol a:hover{
+    background-color: var(--p_100);
+}
+.team_sns a:hover svg path{
+    fill:var(--white);
+}
+
+.team_caption{
+    margin-top: 18px;
+    margin-left:4px;
+    font-size: var(--body_07);
+    color:var(--gray_50);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 8px;
+}
+
+.team_group .facebook,
+.team_group .twitter,
+.team_group .telegram{
+    display: none;
+}
+
+.leader_group .facebook,
+.leader_group .twitter,
+#team_jonas .facebook,
+#team_jonas .twitter,
+#team_jonas .telegram{
+    display: block;
+}
+#team_ashwin .team_name span{
+    display: none;
+}
+
+#team_luke .twitter,
+#team_sangmin ol{
+    display: none;
+}
+#team_sangmin ol.email{
+    display: block;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .team_group li{
+        width:50%;
+    }
+    .leader_group ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .leader_group li{
+        width:100%;
+        max-width: 600px;
+    }
+
+
+}

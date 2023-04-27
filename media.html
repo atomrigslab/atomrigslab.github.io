@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomrigs Lab</title>
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="./js/header.js"></script> -->
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+          $("#header").load("./page/header.html");
+          $("#footer").load("./page/footer.html");
+          $("#list_box").load("./page/list_box_media.html");
+        });
+      </script>
+    
+</head>
+<body>
+    <header id="header" class="fixed"></header>
+
+    <div class="subPage">
+      <section class="section1">
+            <div class="container">
+                <div class="media global_width global_padding center margin_t_140 margin_b_140">
+                    
+                    <ul id="list_box" class="list_box"></ul>
+            
+                </div>
+            </div>
+      </section>
+    </div>
+
+
+
+    <footer id="footer"></footer>
+
+</body>
+</html>

@@ -1,0 +1,290 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url('reset.css');
+@import url('grid.css');
+@import url('header.css');
+@import url('footer.css');
+
+:root {
+  --black: #131313;
+  --white: #FFFFFF;
+  --gray_10:#E6E6E6;
+  --gray_20:#CCCECD;
+  --gray_30:#B3B5B5;
+  --gray_40:#999D9C;
+  --gray_50:#808483;
+  --gray_60:#666A69;
+  --gray_70:#4D4F4F;
+  --gray_80:#333534;
+  --gray_90:#1A1A1A;
+
+  --p_10:#F3F7F8;
+  --p_20:#BEC9CD;
+  --p_30:#83969C;
+  --p_40:#435E67;
+  --p_100:#092832;
+  --p_200:#072028;
+  --p_300:#05181E;
+  --p_400:#041014;
+  --p_500:#02080A;
+
+  --s_100:#FFC700;
+
+  --bg:#F6F9FB;
+
+  --title_01:5.6rem;
+  --title_02:5.4rem;
+  --title_03:4.8rem;
+  --title_04:4.2rem;
+  --title_05:3.6rem;
+
+  --subTitle_01:3.8rem;
+  --subTitle_02:3.4rem;
+  --subTitle_03:3rem;
+  --subTitle_04:2.8rem;
+  --subTitle_05:2.4rem;
+  --subTitle_06:2rem;
+
+  --body_01:3.2rem;
+  --body_02:2.8rem;
+  --body_03:2.4rem;
+  --body_04:2rem;
+  --body_05:1.8rem;
+  --body_06:1.6rem;
+  --body_07:1.4rem;
+
+  --caption_01:1.8rem;
+  --caption_02:1.4rem;
+}
+
+html {
+  text-align: left;
+  color: var(--black);
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  /* letter-spacing: -0.5px; */
+}
+body {
+  position: relative;
+  font-size: var(--body_03);
+  min-width: 320px;
+  line-height: 1.4;
+}
+a {
+  color: var(--black);
+}
+
+
+
+
+button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--body_05);
+  font-family: Pretendard;
+  transition: all 0.35s;
+}
+button[name="button"] {
+  background-color: var(--p_100);
+  color:var(--white);
+  border-radius: 4px;
+  padding:1.8rem 2.4rem;
+}
+button.white{
+  background-color: var(--white);
+  color:var(--black);
+}
+button[name="button"]:active,
+button[name="button"]:hover {
+  background: var(--s_100);
+}
+button[name="button"]:disabled,
+button[disabled] {
+  background-color: var(--gray_10);
+}
+.small_link{
+  padding:4px 0;
+  color:rgba(0,0,0,0.5);
+  transition: all ease-in-out .3s;
+}
+.small_link:hover{
+  color:rgba(0,0,0,1);
+}
+
+input[type="text"], input[type="email"], textarea{
+  padding:1.6rem;
+  background-color: var(--white);
+  border:1px solid var(--gray_20);
+  border-radius: 4px;
+  color:var(--black);
+  font-size: var(--body_04);
+  font-family: Pretendard;
+}
+input::placeholder, textarea::placeholder{
+  color:var(--gray_30);
+  font-size: var(--body_04);
+  font-weight: 300;
+}
+textarea{
+  height: 154px;
+  resize: none;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+  border:1px solid var(--black);
+}
+
+
+section {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.grid > div{
+  /* grid-column: 3 / 11; */
+}
+
+.global_padding{ padding-left: 4rem; padding-right:4rem; }
+.global_width{ width:100%; max-width: 1440px; }
+.center{margin-left: auto; margin-right: auto;}
+.text_center{text-align: center;}
+
+.margin_t_200{margin-top: 20rem;}
+.margin_t_140{margin-top: 14rem;}
+.margin_t_80{margin-top: 8rem;}
+.margin_t_40{margin-top: 4rem;}
+
+.margin_b_200{margin-bottom: 20rem;}
+.margin_b_140{margin-bottom: 14rem;}
+.margin_b_100{margin-bottom: 10rem;}
+.margin_b_52{margin-bottom: 5.2rem;}
+.margin_b_32{margin-bottom: 3.2rem;}
+.margin_b_24{margin-bottom: 2.4rem;}
+.margin_b_16{margin-bottom: 1.6rem;}
+.margin_b_12{margin-bottom: 1.2rem;}
+.margin_b_8{margin-bottom: 0.8rem;}
+.margin_b_4{margin-bottom: 0.4rem;}
+
+.margin_24{margin-left: -24px; margin-right: -24px;}
+
+
+
+/* sub page */
+.subPage{
+  padding-top:9rem;
+}
+.subPage .section1{
+  background-color: var(--bg);
+}
+
+.swiper-pagination{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+}
+.swiper-pagination span{
+  width:8px;
+  height:8px;
+  border-radius:50px;
+  background-color: var(--gray_20);
+  opacity: 1;
+  margin:0;
+}
+.swiper-pagination span.swiper-pagination-bullet-active{
+  width:80px;
+  background-color: var(--p_100);
+} 
+
+
+
+.text_title, h3{
+  font-weight: 600;
+  font-size: var(--title_03);
+}
+.text_subTitle, h4{
+  font-weight: 600;
+  font-size: var(--subTitle_01);
+}
+.text_subTitle2, h5{
+  font-weight: 600;
+  font-size: var(--subTitle_02);
+}
+h6{
+  font-size: var(--subTitle_05);
+  font-weight: 500;
+}
+.text_contents, figcaption{
+  font-weight: 400;
+  font-size: var(--body_02);
+}
+.text_caption{
+  font-weight: 400;
+  font-size: var(--caption_01);
+}
+
+/* mobile */
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: var(--body_05);
+  }
+
+  .text_title, h3{
+    font-size: var(--title_05);
+  }
+  .text_subTitle, h4{
+    font-size: var(--subTitle_03);
+  }
+  .text_subTitle2, h5{
+    font-size: var(--subTitle_05);
+  }
+  h6{
+    font-size: var(--subTitle_06);
+  }
+  .text_contents, figcaption{
+    font-size: var(--body_06);
+  }
+  .text_caption{
+    font-size: var(--caption_02);
+  }
+
+  .margin_t_200{margin-top: 10rem;}
+  .margin_t_140{margin-top: 7rem;}
+  .margin_t_80{margin-top: 4rem;}
+  .margin_t_40{margin-top: 2rem;}
+
+  .margin_b_200{margin-bottom: 10rem;}
+  .margin_b_140{margin-bottom: 7rem;}
+  .margin_b_100{margin-bottom: 5rem;}
+  .margin_b_52{margin-bottom: 2.6rem;}
+  .margin_b_32{margin-bottom: 2.4rem;}
+  .margin_b_24{margin-bottom: 1.2rem;}
+  .margin_b_16{margin-bottom: 0.8rem;}
+  .margin_b_12{margin-bottom: 0.6rem;}
+  .margin_b_8{margin-bottom: 0.4rem;}
+  .margin_b_4{margin-bottom: 0rem;}
+
+  .margin_24{margin-left: 0; margin-right: 0;}
+
+  .max_wh{max-width: 800px;}
+  
+
+
+  .global_padding{ 
+    padding-left: 1.6rem; 
+    padding-right:1.6rem; 
+  }
+  .subPage{ 
+    padding-top:8rem; 
+    padding-bottom:8rem;
+  }
+  
+}
