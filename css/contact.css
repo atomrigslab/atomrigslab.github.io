@@ -17,10 +17,10 @@
     flex-direction: column;
     flex-wrap: nowrap;
     row-gap: 60px; 
-    background-color: var(--p_100);
+    /* background-color: var(--p_100); */
     padding:4rem;
     border-radius: 8px;
-    color:var(--white);
+    color:var(--black);
 }
 .contact_info_contents{
     display: flex;
@@ -47,11 +47,14 @@
 .contact_info_contents p{
     font-size: var(--body_02);
 }
+.contact_info_contents p a{
+    display: inline;
+}
 .contact_info_contents_map p{
     font-size: var(--body_05);
 }
 #map{
-    aspect-ratio: 4 / 3;
+    /* aspect-ratio: 16 / 9; */
     background-color: #fff;
     overflow: hidden;
     /* background-image: url(../img/map.png); 
