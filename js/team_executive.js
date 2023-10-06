@@ -1,16 +1,19 @@
 // JSON 파일을 불러올 URL
-const team_design_info = './js/blockchain_sector/team_design_info.json';
+const team_executive_info = './js/executive/team_executive_info.json';
 
 // 데이터를 가져와서 HTML에 삽입하는 함수
-function displayData_design(team_design_info) {
-  const container = document.getElementById('team_design');
+function displayData_executive(team_executive_info) {
+  const container = document.getElementById('team_executive');
   let html = '';
   let card = document.createElement("li");
-  for (let item of team_design_info) {
-    html += `<li id="members_${item.url}">`;
+  for (let item of team_executive_info) {
+    html += `<li id="members_${item.url}" class="${item.leader}">`;
     html += `   <div class="team_img"><img src="./img/team/${item.url}.png" alt=""></div>`;
     html += `   <div class="members_name"><h6 class="eName">${item.eName}</h6><span>&nbsp|&nbsp</span></span><h6 class="kName">${item.kName}</h6></div>`;
     html += `   <p class="team_position">${item.team_position}</p>`;
+
+    html += `   <ul class="team_caption">${item.caption}</ul>`;
+
     html += `   <ul class="team_sns">`;
     html += `       <ol class="linkedin"><a href="${item.linkedin}" target="_blank"></a></ol>`;
     html += `       <ol class="email"><a href="mailto:${item.email}" target="_blank"></a></ol>`;
@@ -24,7 +27,7 @@ function displayData_design(team_design_info) {
 }
 
 // JSON 파일을 가져오는 fetch 함수 호출
-fetch(team_design_info)
+fetch(team_executive_info)
   .then(response => response.json())
-  .then(team_design_info => displayData_design(team_design_info))
+  .then(team_executive_info => displayData_executive(team_executive_info))
   .catch(error => console.error(error));

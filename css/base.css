@@ -155,13 +155,17 @@ section {
 .center{margin-left: auto; margin-right: auto;}
 .text_center{text-align: center;}
 
+.margin_t_280{margin-top: 28rem;}
 .margin_t_200{margin-top: 20rem;}
 .margin_t_140{margin-top: 14rem;}
+.margin_t_120{margin-top: 12rem;}
 .margin_t_80{margin-top: 8rem;}
+.margin_t_68{margin-top: 6.8rem;}
 .margin_t_40{margin-top: 4rem;}
 
 .margin_b_200{margin-bottom: 20rem;}
 .margin_b_140{margin-bottom: 14rem;}
+.margin_b_120{margin-bottom: 12rem;}
 .margin_b_100{margin-bottom: 10rem;}
 .margin_b_52{margin-bottom: 5.2rem;}
 .margin_b_32{margin-bottom: 3.2rem;}
@@ -256,8 +260,10 @@ h6{
     font-size: var(--caption_02);
   }
 
+  .margin_t_280{margin-top: 14rem;}
   .margin_t_200{margin-top: 10rem;}
   .margin_t_140{margin-top: 7rem;}
+  .margin_t_120{margin-top: 6rem;}
   .margin_t_80{margin-top: 4rem;}
   .margin_t_40{margin-top: 2rem;}
 

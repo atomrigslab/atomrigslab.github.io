@@ -1,12 +1,12 @@
 // JSON 파일을 불러올 URL
-const team_design_info = './js/blockchain_sector/team_design_info.json';
+const team_game_art_info = './js/game_platform_sector/team_game_art_info.json';
 
 // 데이터를 가져와서 HTML에 삽입하는 함수
-function displayData_design(team_design_info) {
-  const container = document.getElementById('team_design');
+function displayData_game_art(team_game_art_info) {
+  const container = document.getElementById('team_game_art');
   let html = '';
   let card = document.createElement("li");
-  for (let item of team_design_info) {
+  for (let item of team_game_art_info) {
     html += `<li id="members_${item.url}">`;
     html += `   <div class="team_img"><img src="./img/team/${item.url}.png" alt=""></div>`;
     html += `   <div class="members_name"><h6 class="eName">${item.eName}</h6><span>&nbsp|&nbsp</span></span><h6 class="kName">${item.kName}</h6></div>`;
@@ -24,7 +24,7 @@ function displayData_design(team_design_info) {
 }
 
 // JSON 파일을 가져오는 fetch 함수 호출
-fetch(team_design_info)
+fetch(team_game_art_info)
   .then(response => response.json())
-  .then(team_design_info => displayData_design(team_design_info))
+  .then(team_game_art_info => displayData_game_art(team_game_art_info))
   .catch(error => console.error(error));

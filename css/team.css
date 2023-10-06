@@ -1,64 +1,152 @@
+.team{
+    padding-top:32px;
+    padding-bottom:32px;
+}
+
+.team_group > h3{
+  display: flex;
+  width: 100%;
+  padding: 12px;
+  justify-content: center; 
+  align-items: baseline;
+  gap: 8px;
+  border-radius: 8px;
+  color:var(--white);
+}
+.team_group > h3 p{
+  font-size: 22px;
+  font-weight: 600;
+}
+.team_group > h3 span{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sector_title{
+    display: flex;
+    width: 304px;
+    padding: 16px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    color:var(--white);
+    text-align: center;
+}
+.sector_title p{
+    font-size: 26px;
+    font-weight: 600;
+}
+.sector_title span{
+    font-size: 20px;
+    font-weight: 400;
+}
 
 .team_group > ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* column-gap: 48px; */
-    /* row-gap: 100px; */
+    justify-content: center;
+    column-gap: 48px;
+    row-gap: 100px;
     width:100%;
-    float: left;
-    margin-bottom: 100px;
 }
-.team_group li{
-    width:25%;
-    float: left;
-    padding:0 24px;
-    margin-bottom: 100px;
+.team_group .members_list > li{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: calc(25% - 36px);
+    padding:0 24px 32px;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(160, 173, 195, 0.25) inset;
+    filter: drop-shadow(0px 0px 50px rgba(160, 173, 195, 0.20));
 }
-.leader_group li{
-    width:33.3%;
+.team_group .members_list > li::before{
+  content: '';
+  width:100%;
+  height:6px;
+  border-radius: 8px 8px 0 0;
+  position: absolute;
+  top:0;
+  left:0;
 }
 
-.team_name{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .team_img{
-    border-radius: 8px;
+    position: absolute;
+    left:50%;
+    top: -60px;
+    transform: translateX(-50%);
+    width:120px;
+    border-radius: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    margin-bottom: 32px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--white);
 }
-.team_name{
-    margin-bottom: 4px;
-    margin-left:4px;
-}
-.team_position{
-    margin-bottom: 18px;
-    margin-left:4px;
-    font-size: var(--body_05);
-    color:var(--gray_60);
-}
-.team_group ul.team_sns{
+
+.members_name{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 4px;
+}
+.members_name h6,
+.members_name span{
+  font-size: 20px;
+  font-weight: 600;
+  color:var(--gray_90);
+}
+
+.team_position{
+    font-size: 16px;
+    color:var(--gray_50);
+    text-align: center;
+}
+
+.team_caption{
+    margin-left: 14px;
+    margin-top: 18px;
+    margin-bottom: 2.3rem;
+    font-size: var(--body_07);
+    color:var(--gray_50);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 8px;
+    list-style:disc;
+}
+#members_ara .team_caption{
+    display: none;
+}
+
+.team_sns{
+    display: none;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 0.4rem;
 }
 .team_sns ol a{
     background-color: none;
     border-radius: 50%;
     font-size: 0;
-    padding:4px;
+    padding:8px;
     transition: all 0.35s;
+    gap : 2px;
 }
 .team_sns svg{
-    width:24px;
-    height:24px;
+    width:20px;
+    height:20px;
 }
 .team_sns svg path{
-    fill:var(--gray_50);
+    fill:var(--gray_30);
 }
 .team_sns ol a:hover{
     background-color: var(--p_100);
@@ -66,56 +154,93 @@
 .team_sns a:hover svg path{
     fill:var(--white);
 }
+.members_list > li:not(.members_leader) .team_sns .telegram,
+.members_list > li:not(.members_leader) .team_sns .twitter,
+.members_list > li:not(.members_leader) .team_sns .facebook{
+    display: none;
+}
 
-.team_caption{
-    margin-top: 18px;
-    margin-left:4px;
-    font-size: var(--body_07);
-    color:var(--gray_50);
+
+
+
+
+/* executive_group */
+.executive_group > h3,
+.executive_group .members_list > li::before{
+    background: var(--p_100);
+}
+.executive_group .members_list > li{
+    width: calc(33.3% - 32px);
+}
+.members_leader .team_img{
+    width:280px;
+    top: -140px;
+}
+.members_leader .members_name{
+    margin-top: 160px;
+}
+.members_leader .team_sns{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    row-gap: 8px;
 }
-
-.team_group .facebook,
-.team_group .twitter,
-.team_group .telegram{
+#members_atom .telegram,
+#members_luke .twitter,
+#members_luke .telegram,
+#members_sangmin .telegram,
+#members_sangmin .twitter,
+#members_sangmin .facebook,
+#members_sangmin .linkedin{
     display: none;
 }
 
-.leader_group .facebook,
-.leader_group .twitter,
-#team_jonas .facebook,
-#team_jonas .twitter,
-#team_jonas .telegram{
-    display: block;
-}
-#team_ashwin .team_name span{
-    display: none;
-}
 
-#team_luke .twitter,
-#team_sangmin ol{
-    display: none;
-}
-#team_sangmin ol.email{
-    display: block;
+/* team_information_security */
+.team_information_security > h3,
+.team_information_security .members_list > li::before{
+    background: #A0AEB2;
 }
 
 
-@media screen and (max-width: 1023px) {
-    .team_group li{
-        width:50%;
-    }
-    .leader_group ul{
+/* blockchain_sector */
+#blockchain_sector .sector_title{
+    background: #71BA2B;
+}
+#blockchain_sector h3,
+#blockchain_sector .members_list > li::before{
+    background: #A6D37B;
+}
+
+
+/* game_platform_sector */
+#game_platform_sector .sector_title{
+    background: #019BE0;
+}
+#game_platform_sector h3,
+#game_platform_sector .members_list > li::before{
+    background: #78CCF1;
+}
+
+
+
+@media screen and (max-width: 1023px) { 
+    .team_group > h3{
         flex-direction: column;
         align-items: center;
+        gap: 2px;
+        margin-bottom: 8rem;
     }
-    .leader_group li{
-        width:100%;
+    .team_group .members_list > li{
+        width: 100%;
         max-width: 600px;
     }
+    .members_leader .team_img{
+        width:180px;
+        top: -60px;
+    }
+    .members_leader .members_name{
+        margin-top: 140px;
+    }
+
+
 
 
 }

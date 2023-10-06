@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "장세희",
+        "eName": "Sebby Chang",
+        "team_position": "Head of Wallet Business Team",
+        "email": "sehee@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sehee-chang-sebby/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "sebby"
+    },
+    {
+        "id": "2",
+        "kName": "임창수",
+        "eName": "Walter Lim",
+        "team_position": "Wallet Developer",
+        "email": "lcs86@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/lcs86/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "walter"
+    },
+    {
+        "id": "3",
+        "kName": "강태승",
+        "eName": "TS Kang",
+        "team_position": "Wallet Developer",
+        "email": "ts.kang@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/ts-kang-77b83320/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "ts"
+    },
+    {
+        "id": "4",
+        "kName": "이 솔",
+        "eName": "Saul Lee",
+        "team_position": "Wallet Developer",
+        "email": "saul@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sol-lee-31354623a/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "saul"
+    }
+]

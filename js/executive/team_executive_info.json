@@ -1,0 +1,62 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "정우현",
+        "eName": "Brian Cheong",
+        "team_position": "CEO / Co-Founder",
+        "email": "a@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/woohyeon-cheong/",
+        "facebook": "https://www.facebook.com/atomrigs/",
+        "twitter": "https://twitter.com/Atomrigs",
+        "telegram": "",
+        "url": "atom",
+        "caption": "<li>Seoul Ethereum Meetup Founder and Organizer, the largest blockchain community in Korea.</li> <li>Specialized in Ethereum and dApp technology development.Established and successfully operated a number of venture companies in the e-commerce area (Acecom, ResellerBid, Geogan).</li> <li>Seoul National University, Department of Communication.(B.A. and M.A.)</li>",
+        "leader": "members_leader",
+        "": ""
+    },
+    {
+        "id": "2",
+        "kName": "배경일",
+        "eName": "Kyoungil Bae",
+        "team_position": "EVP / Co-Founder",
+        "email": "k@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/kyoungil/",
+        "facebook": "https://www.facebook.com/crazybae/",
+        "twitter": "",
+        "telegram": "",
+        "url": "luke",
+        "caption": "<li>25 years of experience in financial engineering and technology consulting.</li> <li>Seoul Ethereum Meetup Co-organizer.</li> <li>Specialized in practical application of advanced mathematical theory. (Financial Engineering, Asset Valuation, Secure MPC)</li> <li>IBM, multiple financial institutions experience.</li> <li>KAIST Management Engineering. (M.S. and Ph.D)</li> <li>KAIST Mathematics. (B.S.)</li>",
+        "leader": "members_leader",
+        "": ""
+    },
+    {
+        "id": "3",
+        "kName": "김상민",
+        "eName": "Sangmin Kim",
+        "team_position": "CTO",
+        "email": "sangmin@atomrigs.io",
+        "linkedin": "",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "sangmin",
+        "caption": "<li>Blockchain research and development.</li> <li>AI/Machine Learning Research and Development.</li> <li>IoT and social network research.</li> <li>Urban and real estate development business experience.</li> <li>Seoul National University Urban Engineering. (B.A)</li> <li>University of North Carolina Urban Planning. (M.S.)</li> <li>Computer Science at North Carolina State University. (M.S and Ph.D)</li>",
+        "leader": "members_leader",
+        "": ""
+    },
+    {
+        "id": "4",
+        "kName": "이아라",
+        "eName": "Ara Lee",
+        "team_position": "Management Support Staff",
+        "email": "ara@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/leeara/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "ara",
+        "caption": "",
+        "leader": "",
+        "": ""
+    }
+]

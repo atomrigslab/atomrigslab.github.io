@@ -1,0 +1,26 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "구선애",
+        "eName": "July",
+        "team_position": "Head of Design Office",
+        "email": "rntjsdo71@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/julykoo/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "july"
+    },
+    {
+        "id": "2",
+        "kName": "문슬기",
+        "eName": "Luna",
+        "team_position": "UX/UI Designer",
+        "email": "luna@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/seulki-moon-77342623a/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "luna"
+    }
+]

@@ -1,0 +1,38 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "박진석",
+        "eName": "blackskin Park",
+        "team_position": "Head of Game Art Team",
+        "email": "blackskin@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jinseok-park-843a8a227/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "blackskin"
+    },
+    {
+        "id": "2",
+        "kName": "김경수",
+        "eName": "finger Kim",
+        "team_position": "Concept Artist",
+        "email": "finger@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/kimkyungsu-45839125b/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "finger"
+    },
+    {
+        "id": "3",
+        "kName": "이시영",
+        "eName": "Young Lee",
+        "team_position": "UX Designer",
+        "email": "young@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/shi-yeong-lee-18839025b/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "young"
+    }
+]

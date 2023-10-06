@@ -1,0 +1,26 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "곽철중",
+        "eName": "Kwak",
+        "team_position": "Head of Game Development Team",
+        "email": "joon@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/%EC%B2%A0%EC%A4%91-%EA%B3%BD-9253736b/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "kwak"
+    },
+    {
+        "id": "2",
+        "kName": "이상준",
+        "eName": "Sangjun Lee",
+        "team_position": "Game Developer",
+        "email": "BrandonLee@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/%EC%83%81%EC%A4%80-%EC%9D%B4-643a6b264/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "sangjun"
+    }
+]

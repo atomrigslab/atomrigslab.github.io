@@ -1,0 +1,38 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "김충연",
+        "eName": "Ryan Kim",
+        "team_position": "Head of Game Platform Team",
+        "email": "ryan@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/%EC%B6%A9%EC%97%B0-%EA%B9%80-aa4b25227/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "ryan"
+    },
+    {
+        "id": "2",
+        "kName": "이재연",
+        "eName": "jaeni Lee",
+        "team_position": "System Designer",
+        "email": "Jaeni@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jaeyeon-jaeni-lee-atomrigs-346440227/ ",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "jaeni"
+    },
+    {
+        "id": "3",
+        "kName": "임재준",
+        "eName": "Jay Lim",
+        "team_position": "Level Designer",
+        "email": "skrh0313@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jaejun-lim-796a88227/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "jay"
+    }
+]

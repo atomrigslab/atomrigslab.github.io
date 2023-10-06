@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "윤 지",
+        "eName": "Jimmy Youn",
+        "team_position": "Head of Blockchain R&D Team",
+        "email": "jimmy@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/jimmy-youn-be-engineer/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "jimmy"
+    },
+    {
+        "id": "2",
+        "kName": "서성용",
+        "eName": "Yong Seo",
+        "team_position": "Dapp Developer",
+        "email": "yong@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sungyong-seo-38a936259/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "yong"
+    },
+    {
+        "id": "3",
+        "kName": "강하민",
+        "eName": "Hamin Kang",
+        "team_position": "Stategic Partnership Management Lead",
+        "email": "hamin@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/hamink/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "hamin"
+    },
+    {
+        "id": "4",
+        "kName": "정수진",
+        "eName": "Siena Jung",
+        "team_position": "Service Designer",
+        "email": "siena@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/sujin-jung-1bb9aa152/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "siena"
+    }
+]

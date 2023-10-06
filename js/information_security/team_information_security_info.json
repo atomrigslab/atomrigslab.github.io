@@ -1,0 +1,26 @@
+﻿[
+    {
+        "id": "1",
+        "kName": "박태광",
+        "eName": "Kei Park",
+        "team_position": "Head of Information Security Team",
+        "email": "tkpark@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/parktaekwang/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "kei"
+    },
+    {
+        "id": "2",
+        "kName": "홍신범",
+        "eName": "Joshua Hong",
+        "team_position": "Business Developer",
+        "email": "joshua@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/joshuahong89/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "joshua"
+    }
+]
