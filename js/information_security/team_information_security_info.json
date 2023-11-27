@@ -22,5 +22,17 @@
         "twitter": "",
         "telegram": "",
         "url": "joshua"
+    },
+    {
+        "id": "3",
+        "kName": "이동화",
+        "eName": "Elroy Lee",
+        "team_position": "Information Security Manager",
+        "email": "elroy@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/hwa001",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "elroy"
     }
 ]

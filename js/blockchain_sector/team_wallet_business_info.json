@@ -46,5 +46,17 @@
         "twitter": "",
         "telegram": "",
         "url": "saul"
+    },
+    {
+        "id": "5",
+        "kName": "김새롬",
+        "eName": "Lucy Kim",
+        "team_position": "Product Manager",
+        "email": "lucy@atomrigs.io",
+        "linkedin": "https://www.linkedin.com/in/saerom-kim-3b6675292/",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "url": "lucy"
     }
 ]
