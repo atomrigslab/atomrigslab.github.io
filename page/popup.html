@@ -1,0 +1,98 @@
+<style>
+    #main_popup_1{
+        position: fixed;
+        width:100vw;
+        height:100vh;
+        background-color: rgba(0,0,0,0.6);
+        z-index: 1000;
+    }
+    .popup_modal_1 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .popup_modal_img_arae{
+        width:100%;
+        max-width:360px;
+        height:auto;
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 16px rgba(0,0,0,0.4);
+    }
+    .email_btn_area a{
+        cursor: pointer;
+        position: absolute;
+        bottom:100px;
+        left:20%;
+        right:20%;
+        height:40px;
+    }
+    .popup_modal_btn_arae{
+        cursor: pointer;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+    .popup_modal_btn_arae button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:6px;
+        color:var(--gray_30);
+        font-size: 14px;
+        padding:12px;
+    }
+    .popup_modal_btn_arae svg line{
+        stroke-width: 3;
+        stroke:var(--gray_30);
+        transition: all 0.35s;
+    }
+    .popup_modal_btn_arae button:hover,
+    .popup_modal_btn_arae button:hover line{
+        stroke:var(--white);
+        color:var(--white);
+    }
+
+    @media screen and (max-width: 1023px) {
+        .popup_modal_1 {
+            width:300px;
+        }
+        .email_btn_area a{
+            bottom:84px;
+            height:30px;
+        }
+        .popup_modal_btn_arae button{
+            padding:8px;
+        } 
+    }
+</style>
+
+<div class="popup_modal_1">
+    <div class="popup_modal_img_arae">
+        <img src="../img/popup_modal_1.jpg" alt="">
+
+        <div class="email_btn_area">
+            <a href="mailto:info@atomrigs.io"></a>
+        </div>
+
+        <div class="popup_modal_btn_arae">
+            <button class="popup_modal_btn" onclick="closeModal()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10" height="10">
+                    <line x1="1" y1="1" x2="23" y2="23"/>
+                    <line x1="1" y1="23" x2="23" y2="1"/>
+                </svg>
+                닫기
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    openModal();
+        function closeModal() {
+            document.getElementById("main_popup_1").style.display = "none";
+    }
+</script>
